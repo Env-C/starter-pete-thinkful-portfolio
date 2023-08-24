@@ -9,6 +9,7 @@ body {
 }
 
 /* Headings */
+
 h1,
 h2,
 h3 {
@@ -75,4 +76,27 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.group-column {
+  flex-direction: column;
+  margin: 5px;
+}
+
+.p-left {
+  text-align: left;
 }
